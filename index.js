@@ -5,11 +5,17 @@ import path from "path";
 import readline from "readline";
 import { fileURLToPath } from "url";
 
-// Resolve current directory
+const args = process.argv.slice(2);
+
+if (args[0] !== "init") {
+  console.log("Usage: mchook init");
+  process.exit(1);
+}
+
+// Resolving current directory of this script
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
-// Cek manifest.json
 const manifestPath = path.resolve(process.cwd(), "manifest.json");
 
 if (!fs.existsSync(manifestPath)) {
@@ -19,7 +25,6 @@ if (!fs.existsSync(manifestPath)) {
 
 const manifest = JSON.parse(fs.readFileSync(manifestPath, "utf8"));
 
-// Info
 console.log(`\n📦  Existing Project\n`);
 console.log(`Name: ${manifest.header.name}`);
 console.log(`UUID: ${manifest.header.uuid}`);
