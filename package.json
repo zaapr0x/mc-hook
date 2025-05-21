@@ -1,0 +1,26 @@
+{
+  "name": "create-mc-hook",
+  "version": "1.0.0",
+  "description": "Scaffold Minecraft hook templates easily",
+  "bin": {
+    "add-mc-hook": "./index.js"
+  },
+  "keywords": [
+    "create",
+    "minecraft",
+    "mc-hook",
+    "cli",
+    "scaffold"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "type": "module",
+  "engines": {
+    "node": ">=18"
+  },
+  "files": [
+    "index.js",
+    "template"
+  ],
+  "packageManager": "pnpm@10.9.0"
+}
