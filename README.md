@@ -24,7 +24,7 @@ This project contains three utility modules for Minecraft Bedrock scripting usin
 
 ---
 ## Installation
-### Go to you behaviour folder and run this command
+Go to you behaviour folder and run this command
 ```
 npx mc-hook@latest init
 or
