@@ -1,5 +1,5 @@
 {
-  "name": "mchook",
+  "name": "mc-hook",
   "version": "1.0.1",
   "description": "An Utility Tool For Minecraft Bedrock Scripting!",
   "bin": {
