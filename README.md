@@ -20,7 +20,6 @@ This project contains three utility modules for Minecraft Bedrock scripting usin
   - [Item Pickup Events](#item-pickup-events)
   - [HTTP Requests](#http-requests)
 
-- [License](#license)
 
 ---
 ## Installation
