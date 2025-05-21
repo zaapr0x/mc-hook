@@ -1,3 +1,10 @@
+<p align="center">
+  <img src="logo.png" alt="mc-hook" width="300"/>
+</p>
+
+---
+An Utility Tool For Minecraft Bedrock Sripting!
+---
 This project contains three utility modules for Minecraft Bedrock scripting using the `@minecraft/server` and `@minecraft/server-net` APIs:
 
 - **Block Break Event Listener**
@@ -14,37 +21,6 @@ This project contains three utility modules for Minecraft Bedrock scripting usin
   - [HTTP Requests](#http-requests)
 
 - [License](#license)
-
----
-
-## 📦 Installation
-
-1. Import the scripts into your Minecraft Bedrock scripting environment.
-2. Ensure your `manifest.json` includes the correct module dependencies:
-
-   ```json
-   {
-     "modules": [
-       {
-         "type": "script",
-         "language": "javascript",
-         "uuid": "your-script-uuid",
-         "version": [1, 0, 0],
-         "entry": "scripts/main.js"
-       }
-     ],
-     "dependencies": [
-       {
-         "module_name": "@minecraft/server",
-         "version": "1.8.0-beta"
-       },
-       {
-         "module_name": "@minecraft/server-net",
-         "version": "1.8.0-beta"
-       }
-     ]
-   }
-   ```
 
 ---
 
