@@ -1,7 +1,7 @@
 {
   "name": "mchook",
   "version": "1.0.0",
-  "description": "An Utility Tool For Minecraft Bedrock Sripting!",
+  "description": "An Utility Tool For Minecraft Bedrock Scripting!",
   "bin": {
     "mchook": "./index.js"
   },
@@ -22,5 +22,13 @@
     "index.js",
     "template"
   ],
-  "packageManager": "pnpm@10.9.0"
+  "packageManager": "pnpm@10.9.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zaapr0x/mc-hook.git"
+  },
+  "bugs": {
+    "url": "https://github.com/zaapr0x/mc-hook/issues"
+  },
+  "homepage": "https://github.com/zaapr0x/mc-hook#readme"
 }
