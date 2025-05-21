@@ -1,9 +1,9 @@
 {
-  "name": "create-mc-hook",
+  "name": "mchook",
   "version": "1.0.0",
-  "description": "Scaffold Minecraft hook templates easily",
+  "description": "An Utility Tool For Minecraft Bedrock Sripting!",
   "bin": {
-    "add-mc-hook": "./index.js"
+    "mchook": "./index.js"
   },
   "keywords": [
     "create",
@@ -12,7 +12,7 @@
     "cli",
     "scaffold"
   ],
-  "author": "Your Name",
+  "author": "zaapr0x",
   "license": "MIT",
   "type": "module",
   "engines": {
