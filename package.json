@@ -1,6 +1,6 @@
 {
   "name": "mchook",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "An Utility Tool For Minecraft Bedrock Scripting!",
   "bin": {
     "mchook": "./index.js"
